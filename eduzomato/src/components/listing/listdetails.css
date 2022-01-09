@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+.all_lists {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+
+.listingapi {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px !important;
+  flex-wrap: wrap;
+}
+.list_container {
+  width: 700px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 20px;
+  margin-bottom: 40px !important;
+  box-shadow: 1.7px 1.8px 2.2px rgba(0, 0, 0, 0.035),
+    4.1px 4.3px 5.3px rgba(0, 0, 0, 0.049), 7.8px 8px 10px rgba(0, 0, 0, 0.059),
+    13.8px 14.3px 17.9px rgba(0, 0, 0, 0.072),
+    25.9px 26.7px 33.4px rgba(0, 0, 0, 0.094),
+    62px 64px 80px rgba(0, 0, 0, 0.15);
+}
+
+.list_top {
+  width: 100%;
+  display: flex;
+  height: 200px;
+  border-radius: 20px;
+  background: linear-gradient(
+      to left,
+      rgb(129, 129, 129),
+      50%,
+      rgb(32, 199, 121) 50%
+    )
+    right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+.list_top:hover {
+  background-position: left;
+}
+
+.rest_thumb {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.rest_thumb > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.rest_name {
+  display: flex;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  margin-left: 10px !important;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.rows {
+  display: flex;
+  width: 100%;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin-top: 2px;
+  font-size: 25px;
+  border-top: 1px solid black;
+  align-items: center;
+}
+
+.colu-1 {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  padding: 2.4px;
+  font-family: "Zilla Slab", serif;
+}
+
+#filter {
+  display: flex;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 2.3px 1.8px 2.2px rgba(0, 0, 0, 0.016),
+    5.5px 4.3px 5.3px rgba(0, 0, 0, 0.024), 10.3px 8px 10px rgba(0, 0, 0, 0.03),
+    18.3px 14.3px 17.9px rgba(0, 0, 0, 0.036),
+    34.3px 26.7px 33.4px rgba(0, 0, 0, 0.047),
+    82px 64px 80px rgba(0, 0, 0, 0.07);
+  background-color: rgb(223, 216, 208);
+  margin-top: 100px !important;
+  padding: 5px !important;
+  flex-wrap: wrap;
+  height: 200px !important;
+}
+
+CusineFilter {
+  display: flex;
+  width: 100%;
+}
+
+CostFilter {
+  display: flex;
+  width: 100%;
+}

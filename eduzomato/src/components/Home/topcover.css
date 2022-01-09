@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+#topcover{
+    background-image: url('https://i.ibb.co/wcdymph/coverimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px !important;
+}
+
+.buttons{
+    position: absolute;
+    top: 7;
+    right: 0;
+    margin-right: 20px !important;
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.login .button{
+    margin-right: 20px !important;
+}
+
+
+
+/* user icon */
+.logo-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px !important;
+}
+
+.logo{
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 1000;
+    font-size: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #E23744;
+    color: #FFFFFF;
+}
+
+
+/* search and location box */
+
+#dropdown{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px !important;
+}
+
+.location-dropdown{
+    width: 20%;
+    height: 60px !important;
+    border-radius: 5px !important;
+    border: 3px solid #f04d5e;
+    border-radius: 10px !important;
+}
+
+.restaurant-dropdown{
+    width: 40%;
+    height: 60px !important;
+    margin-left: 3px !important;
+    border: 3px solid #FF7E8B;
+    border-radius: 10px !important;
+}
+
+.city-option{
+    height: 60px !important;
+}
+
+.rest-option{
+    height: 60px !important;
+}
+
+/* input[name='city']{
+    height: 50px !important; 
+    background-color: whitesmoke;
+    color: gainsboro;
+    text-align: center;
+    font-family: fantasy;
+    margin: 0px;
+    font-size: 30px;
+    
+
+}
+
+input[name='restaurants']{
+    height: 50px; 
+    background-color: whitesmoke;
+    color: gainsboro;
+    text-align: center;
+    font-family: fantasy;
+    margin: 0px;
+    font-size: 30px;
+
+} */
+
+
+
+/* find the best restaurants and food items */
+
+/* #caption{
+    margin-top: 10px;
+	color: gainsboro;
+	font-family: fantasy;
+	font-size: 30px;
+    background-color: black;
+   
+	
+
+}
+
+#caption>a{
+
+    text-decoration: none !important;
+    color:white;
+
+} */
+/* 
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+    background-color: hsla(0, 2%, 25%, 0) !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .logo-container{
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .logo{
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 40px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #FFFFFF;
+    visibility: hidden ;
+
+}
+
+.header-buttons{
+    padding-right: 20px;
+    display: flex;
+    width: 250px;
+    justify-content:space-evenly;
+} */
+
+ 
+
